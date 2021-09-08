@@ -1,0 +1,53 @@
+name: dizzy
+description: Everything
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  provider: ^4.3.2+2
+  sliding_up_panel: ^1.0.2
+  liquid_swipe: ^1.5.0
+  snapping_sheet: ^2.0.2
+  circular_reveal_animation: ^1.1.5
+  contacts_service: ^0.4.6
+  confetti: ^0.5.4+1
+  image_picker: ^0.6.7+22
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_localizations:
+  sdk: flutter
+intl: ^0.16.1
+flutter_localized_locales: ^1.1.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-Medium.ttf
+
+    - family: QuickSand
+      fonts:
+        - asset: fonts/QuickSand/Quicksand-Regular.ttf
+        - asset: fonts/QuickSand/Quicksand-SemiBold.ttf
+          weight: 700
